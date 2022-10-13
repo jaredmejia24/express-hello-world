@@ -55,7 +55,7 @@ var options = {
   redirect: false,
 };
 
-app.use(express.static("dist", options));
+app.use(express.static("dist"));
 
 app.use(
   helmet({
