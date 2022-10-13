@@ -23,7 +23,6 @@ app.use(express.json());
 
 // Enable static files on public folder (render files on html)
 // Logs all request paths and method
-//cyclic
 app.use(function (req, res, next) {
   res.set("x-timestamp", Date.now());
   res.set("x-powered-by", "cyclic.sh");
